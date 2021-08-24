@@ -1,43 +1,33 @@
 body {
-  background-color: #f3f4f5;
+  background-color: #94a8b3;
+  min-height: 2160px;
 }
 
-#jumbotron {
-  background-color: #4a4a4a;
-  min-height: 580px;
+#column {
+  height: 700px;
 }
 
-#jumbotron .container {
-  padding-top: 100px;
+#body {
+  height: 556px;
+  padding-top: 155px;
 }
 
-#about {
-  padding-top: 70px;
+.name {
+  font-size: 64px;
+  font-weight: bolder;
 }
 
-#project {
-  background-color: #4a4a4a;
-  color: #fff;
-  padding-top: 70px;
+.hi {
 }
 
-#project img {
-  margin-bottom: 20px;
+.about {
+  font-size: 32px;
+  font-weight: bolder;
 }
 
-.my-name {
-  size: 200px;
+a {
+  text-decoration: none;
 }
 
-#contact {
-  padding-top: 70px;
-}
-
-footer {
-  padding-top: 10px;
-  text-align: center;
-  background-color: #4a4a4a;
-  min-height: 100px;
-  color: #fff;
-  font-style: italic;
+.social-media {
 }
