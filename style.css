@@ -1,5 +1,6 @@
 body {
   min-height: 2160px;
+  color: rgb(75, 75, 75);
 }
 
 #column {
@@ -47,4 +48,8 @@ a {
 
 .profile-picture {
   border-radius: 10px;
+}
+
+#about {
+  border-radius: 20px;
 }
