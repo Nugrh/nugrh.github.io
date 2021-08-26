@@ -1,5 +1,5 @@
 body {
-  min-height: 2160px;
+  min-height: 3000px;
   color: rgb(75, 75, 75);
 }
 
@@ -8,8 +8,11 @@ body {
 }
 
 #body {
-  height: 720px;
-  padding-top: 216px;
+  padding-top: 200px;
+  padding-bottom: -10px;
+}
+
+#main {
 }
 
 .name {
@@ -21,6 +24,11 @@ body {
 }
 
 .about {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.project {
   font-size: 32px;
   font-weight: bolder;
 }
@@ -52,11 +60,13 @@ a {
 
 #about {
   border-radius: 20px;
+  margin-top: -25px;
 }
 
 #down-button {
   margin-top: 152px;
 }
 
-#about-me-text {
+#project {
+  padding-top: 64px;
 }
