@@ -1,0 +1,76 @@
+body {
+  min-height: 3000px;
+  color: rgb(75, 75, 75);
+}
+
+#column {
+  height: 700px;
+}
+
+#body {
+  padding-top: 248px;
+}
+
+#main {
+}
+
+.name {
+  font-size: 64px;
+  font-weight: bolder;
+}
+
+.hi {
+}
+
+.about {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.project {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-media {
+  opacity: 0.8;
+}
+
+.border-bottom {
+  opacity: 0.7;
+}
+
+#navigation-bar {
+  border-radius: 25px;
+}
+
+.social-media {
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.profile-picture {
+  border-radius: 10px;
+}
+
+#about {
+  border-radius: 20px;
+  margin-top: -25px;
+  height: 600px;
+}
+
+#about-button {
+  margin-top: 152px;
+}
+
+#project-button {
+  margin-top: 42px;
+}
+
+#project {
+  padding-top: 64px;
+}
