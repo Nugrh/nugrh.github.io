@@ -3,49 +3,20 @@ body {
   color: rgb(75, 75, 75);
 }
 
-#column {
-  height: 700px;
-}
-
-#body {
-  padding-top: 248px;
-}
-
-#main {
-}
-
-.name {
-  font-size: 64px;
-  font-weight: bolder;
-}
-
-.hi {
-}
-
-.about {
-  font-size: 32px;
-  font-weight: bolder;
-}
-
-.project {
-  font-size: 32px;
-  font-weight: bolder;
-}
-
 a {
   text-decoration: none;
 }
 
-.social-media {
-  opacity: 0.8;
-}
-
-.border-bottom {
-  opacity: 0.7;
-}
+/* navbar */
 
 #navigation-bar {
   border-radius: 25px;
+}
+
+/* main */
+
+#main {
+  padding-top: 240px;
 }
 
 .social-media {
@@ -53,9 +24,16 @@ a {
   width: fit-content;
 }
 
-.profile-picture {
-  border-radius: 10px;
+.name {
+  font-size: 64px;
+  font-weight: bolder;
 }
+
+#about-button {
+  margin-top: 152px;
+}
+
+/* about me */
 
 #about {
   border-radius: 20px;
@@ -63,14 +41,18 @@ a {
   height: 600px;
 }
 
-#about-button {
-  margin-top: 152px;
+.profile-picture {
+  border-radius: 10px;
 }
 
 #project-button {
   margin-top: 42px;
 }
 
+/* project */
+
 #project {
   padding-top: 64px;
 }
+
+/* contact me */
