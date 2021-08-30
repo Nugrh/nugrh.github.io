@@ -1,5 +1,4 @@
 body {
-  min-height: 3000px;
   color: rgb(75, 75, 75);
 }
 
@@ -51,5 +50,13 @@ a {
 /* project */
 
 #project {
+  padding-top: 64px;
+  margin-bottom: 156px;
+}
+
+/* footer */
+
+footer {
+  height: 156px;
   padding-top: 64px;
 }
