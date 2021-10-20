@@ -17,7 +17,6 @@ a {
 #main {
   padding-top: 225px;
   height: 650px;
-
 }
 
 .social-media {
@@ -31,13 +30,13 @@ a {
 }
 
 #about-button {
-  margin-top: 185px;
 }
 
 /* about me */
 
-
 #about {
+  margin-top: -24px;
+
   border-radius: 20px;
 }
 
