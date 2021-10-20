@@ -1,0 +1,34 @@
+body {
+  color: rgb(75, 75, 75);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+
+#navigation-bar {
+  border-radius: 25px;
+}
+
+/* main */
+
+#main {
+  padding-top: 150px;
+}
+
+.social-media {
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+/* footer */
+
+footer {
+}
