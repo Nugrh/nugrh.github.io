@@ -1,0 +1,64 @@
+div {
+    font-family: 'Comfortaa', cursive;
+}
+
+#side-navbar {
+    min-height: 100vh;
+    /*position: absolute;*/
+}
+
+#nav-box {
+    border-radius: 20px;
+}
+
+#about {
+    /*position: absolute;*/
+    border-radius: 20px;
+    /*display: none;*/
+
+}
+
+#scroll {
+    height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#project {
+    /*position: absolute;*/
+    display: none;
+}
+
+#cv {
+    /*position: absolute;*/
+    display: none;
+
+}
+
+#contact {
+    /*position: absolute;*/
+    display: none;
+
+}
+
+embed {
+    min-height: 60vh;
+    min-width: 76vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
