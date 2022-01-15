@@ -35,13 +35,19 @@ div {
 
 }
 
+#cv-pref {
+    height: 60vh;
+
+}
+
+
 #contact {
     /*position: absolute;*/
     display: none;
 
 }
 
-embed {
+iframe {
     min-height: 60vh;
     min-width: 76vw;
 }
