@@ -24,6 +24,14 @@ div {
     overflow-x: hidden;
 }
 
+#content1, #content2, #content3 {
+    position: relative;
+}
+
+#content1{
+    margin-top: 512px;
+}
+
 #project {
     /*position: absolute;*/
     display: none;

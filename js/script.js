@@ -11,6 +11,10 @@ $(document).ready(function(){
         $("#project").fadeIn();
         $("#cv").hide();
         $("#contact").hide();
+
+        $("#content1").animate({bottom: '512'}, "slow");
+        $("#content2").animate({bottom: '512'}, "slow");
+        $("#content3").animate({bottom: '512'}, "slow");
     })
 
     $("#cv-btn").click(function() {
