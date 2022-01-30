@@ -7,11 +7,15 @@ div {
 
 #side-navbar {
     min-height: 100vh;
-    /*position: absolute;*/
+    position: absolute;
 }
 
 #nav-box {
     border-radius: 20px;
+}
+
+#top-nav {
+    display: none;
 }
 
 #about {
@@ -61,6 +65,28 @@ iframe {
     width: 76vw;
 }
 
+
+@media (max-width: 768px) {
+    #nav-box{
+        position: absolute;
+        display:none;
+    }
+
+    #top-nav {
+        display: block;
+        position: absolute;
+    }
+
+    #top-nav-box {
+        border-radius: 20px;
+
+    }
+
+    #content{
+        padding: 32px;
+        padding-top: 100px;
+    }
+}
 
 
 

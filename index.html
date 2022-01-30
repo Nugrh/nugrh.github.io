@@ -16,12 +16,35 @@
 </head>
 <body>
 
-<!-- responsive alert -->
-<script>alert("This is unfinished project, the page is not responsive, if you are using mobile phone, please enable desktop page on your phone browser!")</script>
+<!-- Navbar responsive-->
 
-<div class="container-fluid bg-light d-flex" id="side-navbar">
-    <div class="row d-flex">
-        <div class="col-md-1 text-center align-self-center d-flex">
+<div class="container-fluid d-flex  justify-content-center sticky-top ">
+    <nav class="" id="top-nav">
+            <div class="card border-0 m-3 shadow-sm px-5" id="top-nav-box">
+                <div class="card-body p-0 ">
+                    <button id="about-btn-res" class="fs-1 btn mx-1" title="About me">
+                        <i class="bi bi-person-circle"></i>
+                    </button>
+
+                    <button id="project-btn-rev" class="fs-1 btn mx-1" title="Project">
+                        <i class="bi bi-files"></i>
+                    </button>
+
+                    <button id="cv-btn-rev" class="fs-1 btn mx-1" title="CV">
+                        <i class="bi bi-file-earmark-person"></i>
+                    </button>
+
+                    <button id="contact-btn-rev" class="fs-1 btn mx-1" title="Contact">
+                        <i class="bi bi-telephone"></i>
+                    </button>
+                </div>
+            </div>
+    </nav>
+</div>
+
+<nav class="d-flex" id="side-navbar">
+    <div class="container-fluid d-flex">
+        <div class="text-center align-self-center d-flex">
             <div class="card border-0 shadow-sm" id="nav-box">
                 <div class="card-body">
                     <div class="row mb-3">
@@ -47,8 +70,12 @@
                 </div>
             </div>
         </div>
+    </div>
+</nav>
 
-        <div class="col container bg-white m-5 p-5 border rounded">
+<div class="container-fluid bg-light">
+    <div class="row ms-md-5 ">
+        <div class="col-md container bg-white m-md-5 p-md-5 border rounded" id="content">
             <div id="about">
                 <div class="fs-1">About me</div>
                 <div class="row">
@@ -69,7 +96,7 @@
                         <div class="pt-2">
                             <div class="fs-4 mb-3">Things I've learned </div>
                             <div class="row">
-                                <div class="col text-lg-start">
+                                <div class="col-sm-3 col-6">
                                     <strong class="fs-5">Laravel</strong>
                                     <li>Routing</li>
                                     <li>Blade</li>
@@ -78,7 +105,7 @@
                                     <li>CRUD</li>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3 col-6">
                                     <strong class="fs-5">Web</strong>
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -86,7 +113,7 @@
                                     <li>Bootstrap</li>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3 col-6">
                                     <strong class="fs-5">Java</strong>
                                     <li>Basic Syntax</li>
                                     <li>Looping</li>
@@ -94,7 +121,7 @@
                                     <li>Condition</li>
                                 </div>
 
-                                <div class="col">
+                                <div class="col-sm-3 col-6">
                                     <strong class="fs-5">GIT</strong>
                                     <li>Basic GIT</li>
                                 </div>
@@ -108,24 +135,24 @@
                 <div class="fs-1">Projects</div>
                 <div id="scroll" class="p-3">
                     <div class="row mb-3" id="content1">
-                        <div class="col mx-3 align-self-center">
+                        <div class="col-md mx-3 align-self-center">
                             <a href="https://github.com/Nugrh/perpustakaan#readme" class="row text-black text-decoration-none">
-                                <div class="col ">
+                                <div class="col-md">
                                     <img src="./img/projects/library.png" alt="" class="img-fluid" >
                                 </div>
-                                <div class="col ">
+                                <div class="col-md">
                                     <div class="fs-5">Library</div>
                                     <div class="">Library web app makes you easier to manage the school library
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col mx-3 align-self-center">
+                        <div class="col-md mx-3 align-self-center">
                             <a href="https://github.com/Nugrh/school-management-CRUD-#readme" class="row text-black text-decoration-none">
-                                <div class="col">
+                                <div class="col-md">
                                     <img src="./img/projects/crud-sms.png" alt="" class="img-fluid">
                                 </div>
-                                <div class="col">
+                                <div class="col-md">
                                     <div class="fs-5">School management</div>
                                     <div class="">Manage student and teacher data</div>
                                 </div>
@@ -134,23 +161,23 @@
                     </div>
 
                     <div class="row mb-3" id="content2">
-                        <div class="col mx-3 align-self-center">
+                        <div class="col-md mx-3 align-self-center">
                             <a href="" class="row text-black text-decoration-none">
-                                <div class="col">
+                                <div class="col-md">
                                     <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col ">
+                                <div class="col-md ">
                                     <div class="fs-5">Title</div>
                                     <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col mx-3 align-self-center">
+                        <div class="col-md mx-3 align-self-center">
                             <a href="" class="row text-black text-decoration-none">
-                                <div class="col ">
+                                <div class="col-md ">
                                     <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col ">
+                                <div class="col-md ">
                                     <div class="fs-5">Title</div>
                                     <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
                                 </div>
@@ -158,23 +185,23 @@
                         </div>
                     </div>
                     <div class="row mb-3" id="content3">
-                        <div class="col mx-3 align-self-center">
+                        <div class="col-md mx-3 align-self-center">
                             <a href="" class="row text-black text-decoration-none">
-                                <div class="col ">
+                                <div class="col-md ">
                                     <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col ">
+                                <div class="col-md ">
                                     <div class="fs-5">Title</div>
                                     <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col mx-3 align-self-center">
+                        <div class="col-md mx-3 align-self-center">
                             <a href="" class="row text-black text-decoration-none">
-                                <div class="col ">
+                                <div class="col-md ">
                                     <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col ">
+                                <div class="col-md ">
                                     <div class="fs-5">Title</div>
                                     <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
                                 </div>
@@ -207,11 +234,10 @@
 
             <div id="contact" class="col">
                 <div class="row d-flex" style="height: 70vh">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="fs-1 mb-3">Contact</div>
-
                         <div class="email fs-3">
-                            <i class="bi bi-envelope"> <a href="mailto:anugrah.tribima@gmail.com">anugrah.tribima@gmail.com</a></i>
+                            <i class="bi bi-envelope"> <a href="mailto:anugrah.tribima@gmail.com" >anugrah.tribima@gmail.com</a></i>
                         </div>
                         <div class="whatsapp fs-3">
                             <i class="bi bi-whatsapp"> <a href="https://wa.me/6283836229657">0838-3622-9657</a></i>
@@ -229,7 +255,7 @@
                             <i class="bi bi-github"> <a href="https://www.github.com/nugrh/">Nugrh</a></i>
                         </div>
                     </div>
-                    <div class="col-6 align-self-end">
+                    <div class="col-md-6 align-self-end">
                         <img src="img/contactme.svg" alt="" class="img-fluid">
                     </div>
                 </div>
