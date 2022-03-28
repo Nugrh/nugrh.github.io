@@ -2,7 +2,7 @@ body {
 }
 
 div {
-    font-family: 'Comfortaa', cursive;
+    font-family: "Comfortaa", cursive;
 }
 
 #side-navbar {
@@ -22,7 +22,7 @@ div {
     /*position: absolute;*/
     border-radius: 20px;
     /*display: none;*/
-
+    height: 68vh;
 }
 
 #scroll {
@@ -31,11 +31,13 @@ div {
     overflow-x: hidden;
 }
 
-#content1, #content2, #content3 {
+#content1,
+#content2,
+#content3 {
     position: relative;
 }
 
-#content1{
+#content1 {
     margin-top: 512px;
 }
 
@@ -46,18 +48,15 @@ div {
 
 #cv {
     display: none;
-
 }
 
 #cv-pref {
     height: 60vh;
-
 }
 
 #contact {
     /*position: absolute;*/
     display: none;
-
 }
 
 iframe {
@@ -65,11 +64,10 @@ iframe {
     width: 76vw;
 }
 
-
 @media (max-width: 768px) {
-    #nav-box{
+    #nav-box {
         position: absolute;
-        display:none;
+        display: none;
     }
 
     #top-nav {
@@ -79,25 +77,10 @@ iframe {
 
     #top-nav-box {
         border-radius: 20px;
-
     }
 
-    #content{
+    #content {
         padding: 32px;
         padding-top: 100px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
