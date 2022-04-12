@@ -1,263 +1,408 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<!--  Style  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!--  Style  -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
-    <title>Anugrah Tribima</title>
-</head>
-<body>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Mochiy+Pop+P+One&display=swap"
+            rel="stylesheet"
+        />
+        <title>Anugrah Tribima</title>
+    </head>
+    <body>
+        <!-- Navbar responsive-->
 
-<!-- Navbar responsive-->
-
-<div class="container-fluid d-flex  justify-content-center sticky-top ">
-    <nav class="" id="top-nav">
-            <div class="card border-0 m-3 shadow-sm px-5" id="top-nav-box">
-                <div class="card-body p-0 ">
-                    <button id="about-btn-res" class="fs-1 btn mx-1" title="About me">
-                        <i class="bi bi-person-circle"></i>
-                    </button>
-
-                    <button id="project-btn-rev" class="fs-1 btn mx-1" title="Project">
-                        <i class="bi bi-files"></i>
-                    </button>
-
-                    <button id="cv-btn-rev" class="fs-1 btn mx-1" title="CV">
-                        <i class="bi bi-file-earmark-person"></i>
-                    </button>
-
-                    <button id="contact-btn-rev" class="fs-1 btn mx-1" title="Contact">
-                        <i class="bi bi-telephone"></i>
-                    </button>
-                </div>
-            </div>
-    </nav>
-</div>
-
-<nav class="d-flex" id="side-navbar">
-    <div class="container-fluid d-flex">
-        <div class="text-center align-self-center d-flex">
-            <div class="card border-0 shadow-sm" id="nav-box">
-                <div class="card-body">
-                    <div class="row mb-3">
-                        <button id="about-btn" class="fs-1 btn" title="About me">
+        <div class="container-fluid d-flex justify-content-center sticky-top">
+            <nav class="" id="top-nav">
+                <div class="card border-0 m-3 shadow-sm px-5" id="top-nav-box">
+                    <div class="card-body p-0">
+                        <button
+                            id="about-btn-res"
+                            class="fs-1 btn mx-1"
+                            title="About me"
+                        >
                             <i class="bi bi-person-circle"></i>
                         </button>
-                    </div>
-                    <div class="row mb-3">
-                        <button id="project-btn" class="fs-1 btn" title="Project">
+
+                        <button
+                            id="project-btn-rev"
+                            class="fs-1 btn mx-1"
+                            title="Project"
+                        >
                             <i class="bi bi-files"></i>
                         </button>
-                    </div>
-                    <div class="row mb-3">
-                        <button id="cv-btn" class="fs-1 btn" title="CV">
+
+                        <button
+                            id="cv-btn-rev"
+                            class="fs-1 btn mx-1"
+                            title="CV"
+                        >
                             <i class="bi bi-file-earmark-person"></i>
                         </button>
-                    </div>
-                    <div class="row">
-                        <button id="contact-btn" class="fs-1 btn" title="Contact">
+
+                        <button
+                            id="contact-btn-rev"
+                            class="fs-1 btn mx-1"
+                            title="Contact"
+                        >
                             <i class="bi bi-telephone"></i>
                         </button>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
-    </div>
-</nav>
 
-<div class="container-fluid bg-light">
-    <div class="row ms-md-5 ">
-        <div class="col-md container bg-white m-md-5 p-md-5 border rounded" id="content">
-            <div id="about">
-                <div class="fs-1">About me</div>
-                <div class="row">
-                    <div class="col-lg-3 text-center">
-                        <div class="border pt-3 mt-3 pb-5 bg-light text-center rounded">
-                            <img src="./img/profile-picture.jpg" alt="profile-picture.jpg" class="p-2 m-3 bg-white shadow-sm img-fluid rounded-circle" width="200px">
-                            <div class="fs-4">Anugrah Tribima</div>
-                            <div class="">Web Developer</div>
-                        </div>
-                    </div>
-                    <div class="col px-lg-5 mt-5 align-self-center">
-                        <div class="text-left">
-                            <div class="fs-4">Hello there!</div>
-                            <p>
-                                Im Anugrah tribima rohman Student of High school vocational majoring Software Engineering living in indonesia, interest in web programming and technology since 2020, also I like coffee.
-                            </p>
-                        </div>
-                        <div class="pt-2">
-                            <div class="fs-4 mb-3">Things I've learned </div>
+        <nav class="d-flex" id="side-navbar">
+            <div class="container-fluid d-flex">
+                <div class="text-center align-self-center d-flex">
+                    <div class="card border-0 shadow-sm" id="nav-box">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <button
+                                    id="about-btn"
+                                    class="fs-1 btn"
+                                    title="About me"
+                                >
+                                    <i class="bi bi-person-circle"></i>
+                                </button>
+                            </div>
+                            <div class="row mb-3">
+                                <button
+                                    id="project-btn"
+                                    class="fs-1 btn"
+                                    title="Project"
+                                >
+                                    <i class="bi bi-files"></i>
+                                </button>
+                            </div>
+                            <div class="row mb-3">
+                                <button id="cv-btn" class="fs-1 btn" title="CV">
+                                    <i class="bi bi-file-earmark-person"></i>
+                                </button>
+                            </div>
                             <div class="row">
-                                <div class="col-sm-3 col-6">
-                                    <strong class="fs-5">Laravel</strong>
-                                    <li>Routing</li>
-                                    <li>Blade</li>
-                                    <li>MVC</li>
-                                    <li>Database</li>
-                                    <li>CRUD</li>
-                                </div>
-
-                                <div class="col-sm-3 col-6">
-                                    <strong class="fs-5">Web</strong>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>PHP</li>
-                                    <li>Bootstrap</li>
-                                </div>
-
-                                <div class="col-sm-3 col-6">
-                                    <strong class="fs-5">Java</strong>
-                                    <li>Basic Syntax</li>
-                                    <li>Looping</li>
-                                    <li>Array</li>
-                                    <li>Condition</li>
-                                </div>
-
-                                <div class="col-sm-3 col-6">
-                                    <strong class="fs-5">GIT</strong>
-                                    <li>Basic GIT</li>
-                                </div>
+                                <button
+                                    id="contact-btn"
+                                    class="fs-1 btn"
+                                    title="Contact"
+                                >
+                                    <i class="bi bi-telephone"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </nav>
 
-            <div id="project" class="col">
-                <div class="fs-1">Projects</div>
-                <div id="scroll" class="p-3">
-                    <div class="row mb-3" id="content1">
-                        <div class="col-md mx-3 align-self-center">
-                            <a href="https://github.com/Nugrh/perpustakaan#readme" class="row text-black text-decoration-none">
-                                <div class="col-md">
-                                    <img src="./img/projects/library.png" alt="" class="img-fluid" >
+        <div class="container-fluid bg-light">
+            <div class="row ms-md-5">
+                <div
+                    class="col-md container bg-white m-md-5 p-md-5 border rounded"
+                    id="content"
+                >
+                    <div id="about">
+                        <div class="fs-1">About me</div>
+                        <div class="row">
+                            <div class="col-lg-3 text-center">
+                                <div
+                                    class="border pt-3 mt-3 pb-5 bg-light text-center rounded"
+                                >
+                                    <img
+                                        src="./img/profile-picture.jpg"
+                                        alt="profile-picture.jpg"
+                                        class="p-2 m-3 bg-white shadow-sm img-fluid rounded-circle"
+                                        width="200px"
+                                    />
+                                    <div class="fs-4">Anugrah Tribima</div>
+                                    <div class="">Web Developer</div>
                                 </div>
-                                <div class="col-md">
-                                    <div class="fs-5">Library</div>
-                                    <div class="">Library web app makes you easier to manage the school library
+                            </div>
+                            <div class="col px-lg-5 mt-5 align-self-center">
+                                <div class="text-left">
+                                    <div class="fs-4">Hello there!</div>
+                                    <p>
+                                        Im Anugrah tribima rohman Student of
+                                        High school vocational majoring Software
+                                        Engineering living in indonesia,
+                                        interest in web programming and
+                                        technology since 2020, also I like
+                                        coffee.
+                                    </p>
+                                </div>
+                                <div class="pt-2">
+                                    <div class="fs-4 mb-3">
+                                        Things I've learned
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 col-6">
+                                            <strong class="fs-5"
+                                                >Laravel</strong
+                                            >
+                                            <li>Routing</li>
+                                            <li>Blade</li>
+                                            <li>MVC</li>
+                                            <li>Database</li>
+                                            <li>CRUD</li>
+                                        </div>
+
+                                        <div class="col-sm-3 col-6">
+                                            <strong class="fs-5">Web</strong>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>PHP</li>
+                                            <li>Bootstrap</li>
+                                        </div>
+
+                                        <div class="col-sm-3 col-6">
+                                            <strong class="fs-5">Java</strong>
+                                            <li>Basic Syntax</li>
+                                            <li>Looping</li>
+                                            <li>Array</li>
+                                            <li>Condition</li>
+                                        </div>
+
+                                        <div class="col-sm-3 col-6">
+                                            <strong class="fs-5">GIT</strong>
+                                            <li>Basic GIT</li>
+                                        </div>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-md mx-3 align-self-center">
-                            <a href="https://github.com/Nugrh/school-management-CRUD-#readme" class="row text-black text-decoration-none">
-                                <div class="col-md">
-                                    <img src="./img/projects/crud-sms.png" alt="" class="img-fluid">
-                                </div>
-                                <div class="col-md">
-                                    <div class="fs-5">School management</div>
-                                    <div class="">Manage student and teacher data</div>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="row mb-3" id="content2">
-                        <div class="col-md mx-3 align-self-center">
-                            <a href="" class="row text-black text-decoration-none">
-                                <div class="col-md">
-                                    <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
+                    <div id="project" class="col">
+                        <div class="fs-1">Projects</div>
+                        <div id="scroll" class="p-3">
+                            <div class="row mb-3" id="content1">
+                                <div class="col-md mx-3 align-self-center">
+                                    <a
+                                        href="https://github.com/Nugrh/perpustakaan#readme"
+                                        class="row text-black text-decoration-none"
+                                    >
+                                        <div class="col-md">
+                                            <img
+                                                src="./img/projects/library.png"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="fs-5">Library</div>
+                                            <div class="">
+                                                Library web app makes you easier
+                                                to manage the school library
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                                <div class="col-md ">
-                                    <div class="fs-5">Title</div>
-                                    <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
+                                <div class="col-md mx-3 align-self-center">
+                                    <a
+                                        href="https://github.com/Nugrh/school-management-CRUD-#readme"
+                                        class="row text-black text-decoration-none"
+                                    >
+                                        <div class="col-md">
+                                            <img
+                                                src="./img/projects/crud-sms.png"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="fs-5">
+                                                School management
+                                            </div>
+                                            <div class="">
+                                                Manage student and teacher data
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-md mx-3 align-self-center">
-                            <a href="" class="row text-black text-decoration-none">
-                                <div class="col-md ">
-                                    <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
-                                </div>
-                                <div class="col-md ">
-                                    <div class="fs-5">Title</div>
-                                    <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row mb-3" id="content3">
-                        <div class="col-md mx-3 align-self-center">
-                            <a href="" class="row text-black text-decoration-none">
-                                <div class="col-md ">
-                                    <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
-                                </div>
-                                <div class="col-md ">
-                                    <div class="fs-5">Title</div>
-                                    <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md mx-3 align-self-center">
-                            <a href="" class="row text-black text-decoration-none">
-                                <div class="col-md ">
-                                    <img src="./img/projects/undraw_images_re_0kll.svg" alt="" class="img-fluid">
-                                </div>
-                                <div class="col-md ">
-                                    <div class="fs-5">Title</div>
-                                    <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, voluptas.</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <a href="https://github.com/nugrh/" >Visit my Github for more projects!</a>
-            </div>
+                            </div>
 
-            <div id="cv" class="col">
-                <div class="row d-flex ">
-                    <div class="col-md">
-                        <div class="fs-1">Curriculumn vitae</div>
+                            <div class="row mb-3" id="content2">
+                                <div class="col-md mx-3 align-self-center">
+                                    <a
+                                        href=""
+                                        class="row text-black text-decoration-none"
+                                    >
+                                        <div class="col-md">
+                                            <img
+                                                src="./img/projects/undraw_images_re_0kll.svg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="fs-5">Title</div>
+                                            <div class="">
+                                                Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit.
+                                                Impedit, voluptas.
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md mx-3 align-self-center">
+                                    <a
+                                        href=""
+                                        class="row text-black text-decoration-none"
+                                    >
+                                        <div class="col-md">
+                                            <img
+                                                src="./img/projects/undraw_images_re_0kll.svg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="fs-5">Title</div>
+                                            <div class="">
+                                                Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit.
+                                                Impedit, voluptas.
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mb-3" id="content3">
+                                <div class="col-md mx-3 align-self-center">
+                                    <a
+                                        href=""
+                                        class="row text-black text-decoration-none"
+                                    >
+                                        <div class="col-md">
+                                            <img
+                                                src="./img/projects/undraw_images_re_0kll.svg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="fs-5">Title</div>
+                                            <div class="">
+                                                Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit.
+                                                Impedit, voluptas.
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md mx-3 align-self-center">
+                                    <a
+                                        href=""
+                                        class="row text-black text-decoration-none"
+                                    >
+                                        <div class="col-md">
+                                            <img
+                                                src="./img/projects/undraw_images_re_0kll.svg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="fs-5">Title</div>
+                                            <div class="">
+                                                Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit.
+                                                Impedit, voluptas.
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://github.com/nugrh/"
+                            >Visit my Github for more projects!</a
+                        >
                     </div>
-                    <div class="col-md text-md-end align-self-center">
-                        <a href="./cv/Anugrah%20tribima%20-%20CV.pdf" class="btn btn-primary">Download CV</a>
+
+                    <div id="cv" class="col">
+                        <div class="row d-flex">
+                            <div class="col-md">
+                                <div class="fs-1">Curriculumn vitae</div>
+                            </div>
+                            <div class="col-md text-md-end align-self-center">
+                                <a
+                                    href="./cv/Anugrah%20tribima%20-%20CV.pdf"
+                                    class="btn btn-primary"
+                                    >Download CV</a
+                                >
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <div class="row">
+                                    <div
+                                        class="embed-responsive embed-responsive-21by9 mt-3"
+                                        id="cv-pref"
+                                    >
+                                        <iframe
+                                            class="embed-responsive-item"
+                                            src="./cv/Anugrah%20tribima%20-%20CV.pdf"
+                                        ></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center">
-                        <div class="row">
-                            <div class="embed-responsive embed-responsive-21by9 mt-3" id="cv-pref">
-                                <iframe class="embed-responsive-item" src="./cv/Anugrah%20tribima%20-%20CV.pdf"></iframe>
+
+                    <div id="contact" class="col">
+                        <div class="row d-flex" style="height: 70vh">
+                            <div class="col-md-6">
+                                <div class="fs-1 mb-3">Contact</div>
+                                <div class="email fs-3">
+                                    <i class="bi bi-envelope">
+                                        <a
+                                            href="mailto:contact@anugrahtribima.me"
+                                            >contact@anugrahtribima.me</a
+                                        ></i
+                                    >
+                                </div>
+                                <div class="linkedin fs-3">
+                                    <i class="bi bi-linkedin">
+                                        <a
+                                            href="https://www.linkedin.com/in/anugrah-tribima-a78156218/"
+                                            >Anugrah tribima</a
+                                        ></i
+                                    >
+                                </div>
+                                <div class="github fs-3">
+                                    <i class="bi bi-github">
+                                        <a href="https://www.github.com/nugrh/"
+                                            >Nugrh</a
+                                        ></i
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-md-6 align-self-end">
+                                <img
+                                    src="img/contactme.svg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-            </div>
-
-            <div id="contact" class="col">
-                <div class="row d-flex" style="height: 70vh">
-                    <div class="col-md-6">
-                        <div class="fs-1 mb-3">Contact</div>
-                        <div class="email fs-3">
-                            <i class="bi bi-envelope"> <a href="mailto:anugrah.tribima@gmail.com" >anugrah.tribima@gmail.com</a></i>
-                        </div>
-                        <div class="linkedin fs-3">
-                            <i class="bi bi-linkedin"> <a href="https://www.linkedin.com/in/anugrah-tribima-a78156218/">Anugrah tribima</a></i>
-                        </div>
-                        <div class="github fs-3">
-                            <i class="bi bi-github"> <a href="https://www.github.com/nugrh/">Nugrh</a></i>
-                        </div>
-                    </div>
-                    <div class="col-md-6 align-self-end">
-                        <img src="img/contactme.svg" alt="" class="img-fluid">
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
 
-</div>
-
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/script.js"></script>
-</body>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
